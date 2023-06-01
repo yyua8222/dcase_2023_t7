@@ -1,0 +1,6 @@
+@article{yi2023dcase7,
+  title={Latent Diffusion Model Based Foley Sound Generation System For DCASE Challenge 2023 Task 7},
+  author={Yi Yuan, Haohe Liu, Xubo Liu, Xiyuan Kang, Mark D.Plumbley, Wenwu Wang},
+  journal={arXiv preprint arXiv:2305.15905},
+  year={2022}
+}
