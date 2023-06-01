@@ -221,7 +221,7 @@
          <tr>
             <td>
                <p>
-                  Sound generation aims to synthesise the background sound for multimedia content, which involves computationally modelling sound effects with specialized techniques. Previous models usually employ a large number of development sets with sound-text pairs. 
+                  Sound generation aims to synthesise the background sound for multimedia content, which involves computationally modelling sound effects with specialized techniques. Previous models usually employ a large number of development sets with labels as input~(e.g., single numbers or one-hot vector). 
                   In this work, we proposed a diffusion-based generation system for Foley sound generation. To alleviate the data scarcity issue, our model is initially pre-trained with large-scale datasets and fine-tune into this task via transfer learning. 
                   We have observed that the feature embedding extracted by the input encoder can significantly affect the performance of the generation model. Hence, a trainable section for transferring the input embedding is introduced into the system to seek the optimal value for each class. 
                   What’s more, we utilize a filtering strategy to further refine the output, i.e. by selecting the best results from the candidate clips generated in terms of the sim- ilarity score between the sound and target labels. Using the proposed method, our submitted system ranks 1st in DCASE Challenge 2023 task 7 (DCASE2023-T7). 
